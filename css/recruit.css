@@ -1,0 +1,50 @@
+
+.recruit {
+  width: 75%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.recruit-info-name {
+  width: 30%;
+  font-weight: bold;
+  text-align: center;
+  background: #f5f6f9;
+}
+
+.recruit-info-date {
+  width: 70%;
+  padding: 15px 0;
+  padding-left: 10px;
+}
+
+th {
+  border-right: 1px solid black;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+.first-recrit h2,
+.second-recrit h2 {
+  font-weight: bold;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.first-recrit p,
+.second-recrit p {
+  margin-bottom: 20px;
+}
+
+.second-recrit {
+  margin-top: 100px;
+}

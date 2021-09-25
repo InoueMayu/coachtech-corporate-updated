@@ -1,0 +1,43 @@
+
+.blog {
+  padding: 80px 0;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.blog-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.blog-item {
+  width: 32%;
+  margin-right: calc((100% - (32% * 3)) / 2);
+  margin-top: 20px;
+}
+
+.blog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.date {
+  margin-top: 10px;
+}
+
+.blog-content h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+  .blog-wrap {
+    display: block;
+  }
+
+  .blog-item {
+    width: 100%;
+  }
+}
+

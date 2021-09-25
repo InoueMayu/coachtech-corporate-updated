@@ -1,0 +1,48 @@
+
+.service-wrap {
+  width: 85%;
+  margin: 100px auto;
+}
+
+.service-wrap-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+.service-wrap-item img {
+  width: 25%;
+  margin-right: 50px;
+}
+
+.item {
+  border-top: 1px solid black;
+}
+
+.service-content {
+  width: 60%;
+}
+
+.service-content h3 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+  .service-wrap-item {
+    display: block;
+  }
+
+  .service-wrap-item img {
+    width: 100%;
+  }
+
+  .service-content {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+

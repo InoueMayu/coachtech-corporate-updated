@@ -1,0 +1,22 @@
+
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.validate {
+  color: #cd0224;
+  margin-left: 5px;
+}
+

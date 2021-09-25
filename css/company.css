@@ -1,0 +1,33 @@
+
+.company {
+  padding: 80px 0;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.first-tr {
+  border-top: 1px solid black;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+.company-info-name {
+  font-weight: bold;
+  width: 30%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.company-info-data {
+  width: 70%;
+  padding: 20px 0;
+}
+
+.company-info {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+
